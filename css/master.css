@@ -1,0 +1,154 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #fcfaf5;
+}
+
+.title {
+    font-family: 'Sacramento', cursive;
+    font-size: 12vw;
+    color: white;
+    border-bottom: 0.5vw #4F091D solid;
+}
+
+.subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8vw;
+    color: #21040c;
+    margin-bottom: 2vw;
+}
+
+.a-section {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.b-section {
+    padding-top: 4vw;
+    padding-bottom: 2vw;
+    font-size: 3vw;
+    color: #21040c;
+}
+
+.c-section {
+    padding-top: 4vw;
+    padding-bottom: 2vw;
+    font-size: 2vw;
+    background-color: white;
+    outline: solid;
+}
+
+.d-section {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.a-content {
+    font-size: 2vw;
+    padding-top: 2vw;
+}
+
+.c-content {
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+}
+
+.d-content {
+    font-size: 1.5vw;
+    padding-left: 2vw;
+}
+
+.b-icon {
+    font-size: 5vw;
+}
+
+.b-row {
+    margin-bottom: 1vw;
+}
+
+.c-ltitle {
+    font-size: 3vw;
+}
+
+.d-ltitle {
+    font-size: 4vw;
+    margin-bottom: 1vw;
+}
+
+.c-padding {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.d-pfp {
+    height: 15vw;
+    width: auto;
+}
+
+.container-cover {
+    padding: 0;
+}
+
+.map {
+    width: 90%;
+    height: 100%
+}
+
+.navbar-brand {
+    font-family: cursive;
+}
+
+.navbar {
+    font-size: 2vw;
+    background-color: #4F091D;
+}
+
+.carousel-item,
+.carousel-inner,
+.carousel-inner img {
+    height: 100%;
+    width: auto;
+}
+
+.carousel {
+    margin: 2vw auto 0;
+    height: 40vw;
+    width: 40vw
+}
+
+.o-section {
+    padding: 4vw;
+    font-size: 2vw;
+}
+
+.o-section .space {
+    margin-top: 2vw;
+}
+
+.o-section .space-right {
+    margin-right: 3vw;
+}
+
+.o-section .smaller {
+    font-size: 1.5vw;
+    padding-top: 1vw;
+    text-decoration: underline;
+}
+
+.o-section hr {
+    height: 3px;
+    width: 50%;
+    margin: 2vw 0;
+    color: black;
+    opacity: 1;
+}
+
+.form-check {
+    font-size: 1.5vw;
+    padding-top: 1vw;
+}
+
+.order-list {
+    border-right: solid;
+    border-left: solid;
+    padding-left: 2vw;
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/master.css">
+
+    <title></title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about-us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#menu">Menu/Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#ourteam">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active">Order Online</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid o-section">
+        <div class="row">
+            <span class="subtitle text-center">Order Online</span>
+        </div>
+        <div class="row space">
+            <div class="col col-lg-6">
+                <div class="row">
+                    <div class="col-auto">
+                        <label for="name-input" class="form-label">Name:</label>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control form-control-lg" id="name-input" placeholder="Example Exampleson">
+                    </div>
+                </div>
+                <div class="row space">
+                    <div class="col-auto">
+                        <label for="email-input" class="form-label">Email:</label>
+                    </div>
+                    <div class="col">
+                        <input type="email" class="form-control form-control-lg" id="email-input" placeholder="nameson@exampleon.com">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row space justify-content-center">
+            <hr>
+        </div>
+        <div class="row space">
+            <div class="col-md order-list">
+                <div class="row">
+                    <span class="text-center">Baked Goods</span>
+                </div>
+                <div class="row">
+                    <span class="text-center smaller">Cakes</span>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="cake-treat" id="cake-treat1">
+                        <label class="form-check-label" for="cake-treat1">Birthday</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="cake-treat" id="cake-treat2">
+                        <label class="form-check-label" for="cake-treat2">Faux</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="cake-treat" id="cake-treat3">
+                        <label class="form-check-label" for="cake-treat3">Wedding</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <span class="text-center smaller">Treats</span>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="cake-treat" id="cake-treat4">
+                        <label class="form-check-label" for="cake-treat4">Cupcakes</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="cake-treat" id="cake-treat5">
+                        <label class="form-check-label" for="cake-treat5">Cake Pops</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="cake-treat" id="cake-treat6">
+                        <label class="form-check-label" for="cake-treat6">Sugar Cookies</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="cake-treat" id="cake-treat7">
+                        <label class="form-check-label" for="cake-treat7">Macarons</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md order-list">
+                <div class="row">
+                    <span class="text-center">Flavours</span>
+                </div>
+                <div class="row">
+                    <span class="text-center smaller">Regular</span>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flav" id="flav1">
+                        <label class="form-check-label" for="flav1">Vanilla</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flav" id="flav2">
+                        <label class="form-check-label" for="flav2">Chocolate</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <span class="text-center smaller">Special</span>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flav" id="flav3">
+                        <label class="form-check-label" for="flav3">Marble</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flav" id="flav4">
+                        <label class="form-check-label" for="flav4">Lemon</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <span class="text-center smaller">Fancy</span>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flav" id="flav5">
+                        <label class="form-check-label" for="flav5">Red Velvel</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flav" id="flav6">
+                        <label class="form-check-label" for="flav6">Banana Nut</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md order-list">
+                <div class="row">
+                    <span class="text-center">Fillings</span>
+                </div>
+                <div class="row">
+                    <span class="text-center smaller">Buttercream</span>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="fill" id="fill1">
+                        <label class="form-check-label" for="fill1">Vanilla</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="fill" id="fill2">
+                        <label class="form-check-label" for="fill2">Chocolate</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="fill" id="fill3">
+                        <label class="form-check-label" for="fill3">Lemon</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <span class="text-center smaller">Jam</span>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="fill" id="fill4">
+                        <label class="form-check-label" for="fill4">Strawberry</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="fill" id="fill5">
+                        <label class="form-check-label" for="fill5">Raspberry</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <span class="text-center smaller">Icing</span>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="fill" id="fill6">
+                        <label class="form-check-label" for="fill6">Cream Cheese</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row space justify-content-center">
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-lg space-right">
+                <div class="row space">
+                    <p style="margin-bottom:0; padding:0;">Description <i class="bi bi-info-circle" data-bs-toggle="tooltip" title="Include any dietary restrictions here"></i> :</p>
+                </div>
+                <div class="row">
+                    <textarea class="form-control" rows="5" id="description"></textarea>
+                </div>
+                <div class="row space">
+                    Image (optional):
+                    <input type="file" class="form-control form-control-lg" id="inputGroupFile02">
+                </div>
+            </div>
+            <div class="col">
+                <div class="row space">
+                    Requested Decorator (optional):
+                </div>
+                <div class="row">
+                    <select class="form-select form-select-lg" aria-label="request-deco">
+                        <option selected>None</option>
+                        <option>John Johnson</option>
+                        <option>Tom Tomson</option>
+                        <option>Bob Bobson</option>
+                        <option>Daniel Danielson</option>
+                    </select>
+                </div>
+                <div class="row space">
+                    Pick Up Date and Time:
+                </div>
+                <div class="row">
+                    <input class="form-control form-control-lg" type="date">
+                </div>
+                <div class="row space">
+                    <input class="form-control form-control-lg" type="time">
+                </div>
+            </div>
+        </div>
+        <div class="row space">
+            <div class="col-auto ps-0">
+                <a role="button" class="btn btn-lg btn-primary" href="confirm.html">Confirm</a>
+            </div>
+            <div class="col-auto">
+                <a role="button" class="btn btn-lg btn-secondary" href="index.html">Cancel</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        // Initialize tooltips
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+</body>
+
+</html>
